@@ -1,0 +1,23 @@
+version = 1
+revision = 3
+requires-python = ">=3.9"
+
+[[package]]
+name = "macimu"
+version = "0.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/41/b6/172b8e4435e5451c1157974ffe7f1f9267c4e1f38406d2466f1e5e88981a/macimu-0.2.0.tar.gz", hash = "sha256:6fc7737ef75357de18d95e2d0ffe240b96763a704345a7e799d396ed3967189c", size = 22257, upload-time = "2026-03-01T02:20:46.205Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/41/97/5b9329654a04732df3b1fafb34a666b3de65ed31198b5eb49ac6a1b2f394/macimu-0.2.0-py3-none-any.whl", hash = "sha256:70dfd9f0c8897bb816ebe85a89f5b781945b6929b79649e1e8e5c68151467c3c", size = 19858, upload-time = "2026-03-01T02:20:45.058Z" },
+]
+
+[[package]]
+name = "macimu2dsu"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "macimu" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "macimu" }]
