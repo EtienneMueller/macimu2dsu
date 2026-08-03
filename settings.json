@@ -1,0 +1,7 @@
+{
+  "accel_map": {"x": "0", "y": "0", "z": "0"},
+  "gyro_map": {"x": "gx", "y": "-gz", "z": "gy"},
+  "accel_scale": 1.0,
+  "gyro_scale": 1.0,
+  "gyro_deadzone": 0.4
+}
