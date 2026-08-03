@@ -1,0 +1,13 @@
+[project]
+name = "macimu2dsu"
+version = "0.1.0"
+description = "MacBook IMU to DSU/CemuHook bridge for motion controls in Cemu"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "macimu",
+]
+
+[tool.uv]
+package = false
